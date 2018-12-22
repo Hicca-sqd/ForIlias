@@ -1,0 +1,38 @@
+.photo-cont{
+	width: 200px;
+	height: 600px;
+}
+
+.photo-cont__item{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.team_info--name{
+	position: relative;
+	font-size: 40px;
+    font-family: BebasNeue Bold;
+}
+
+.team_info--profession{
+	position: relative;
+	font-size: 20px;
+    font-family: BebasNeue Bold;
+}
+
+.team_info--skills{
+		
+}
+.team_info--skill_title{
+	position: relative;
+	top: 50px;
+	font-size: 40px;
+    font-family: BebasNeue Bold;
+}
+.team_info--skill{
+	position: relative;
+	display: block;
+	font-size: 25px;
+}
+

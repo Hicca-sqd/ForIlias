@@ -1,0 +1,12 @@
+.service_info--video{
+	width: 700px;
+	height: 500px;
+}
+
+.service_info--name{
+	position: relative;
+	font-size: 30px;
+    font-family: BebasNeue Bold;
+    text-align: center;
+    top: 3.2em;
+}

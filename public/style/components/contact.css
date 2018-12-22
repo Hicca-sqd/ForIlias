@@ -1,0 +1,298 @@
+.contact{
+	position: absolute;
+	margin: 15% auto;
+	right: 0;
+	border-left: 1px solid #e7e7e7e7;
+	border-bottom: 1px solid #e7e7e7e7;
+	border-top: 1px solid #e7e7e7e7;
+	width: 50px;
+}
+
+.contact-inner{
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.contact-inner--item:nth-child(2):hover{
+	background-color: #4caf50;
+	
+}
+
+
+.contact-inner--item{
+	position: relative;
+	border-bottom: 1px solid #e7e7e7e7;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	 -webkit-transition: .3s ease-in-out;
+     -moz-transition: .3s ease-in-out;
+     -o-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+     height: 150px;
+}
+
+.contact-inner--item:hover{
+	background-color: #1565c0;
+}
+
+.contact-inner--item_logo {
+	position: relative;
+	display: flex;
+	width: 30px;
+/*	height: 70px;*/
+	margin: 0 auto;
+	top: 10px;
+	margin-bottom: 15px;
+}
+
+.contact-inner--item_logo > img{
+	width:100%;
+	height: 100%;
+}
+
+.contact-inner--item_name{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 30px;
+}
+
+.contact-inner--item_name > span{
+	font-size: 17px;
+	white-space: nowrap;
+	color: white;
+	transform: rotate(90deg);
+}
+
+.modal_jobs{	
+	    position: absolute;
+		border:3px solid red;
+		width: 700px;
+		height: 300px;
+		background-color: #1565c0;
+		right: 10em;
+		top: 25%;
+		z-index: 3;
+		display: none;
+	}
+	.modal_jobs_inner{
+		width: 100%;
+		height: 100%;
+	}
+	.modal_jobs--requred_jobs > img{
+		position: relative;
+		width: 60px;
+		height: 60px;
+		left: 25%;
+		top: 15px;
+		
+	}
+	.modal_jobs--requred_jobs{
+	height: 100%;
+	}
+	.modal_jobs--requred_jobs > ul > li {
+		font-size: 20px;
+		color: white;
+		margin-bottom: 5px;
+		list-style-type: circle;
+	}
+	.modal_jobs--requred_jobs > ul {
+		position: relative;
+		left: 14%;
+		width: 350px;
+		top: 35px;
+	}
+	.modal_jobs_span{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		left: 13%;
+		top: 20px;
+
+	}
+	.modal_jobs_select {
+		position: relative;
+		float: right;
+		right: 25%;
+   		top: 2.2em;
+   		width: 200px;
+   		text-align: center;
+}
+
+.modal_jobs_span--qw{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		float: right;
+		top: 0;
+}
+
+.modal_jobs--file{
+	position: relative;
+	float: right;
+	right: 15%;
+	bottom: 20px;
+	color: white;
+}
+
+.modal_jobs--btn{
+	float: right;
+	top: 2.3em;
+	left: 5%;
+}
+.modal_dicounts{	
+	    position: absolute;
+		border:3px solid red;
+		width: 700px;
+		height: 300px;
+		background-color: #1565c0;
+		right: 10em;
+		top: 25%;
+		z-index: 3;
+		display: none;
+	}
+	.modal_dicounts_inner{
+		width: 100%;
+		height: 100%;
+	}
+	.modal_dicounts--requred_jobs > img{
+		position: relative;
+		width: 60px;
+		height: 60px;
+		left: 25%;
+		top: 15px;
+		
+	}
+	.modal_dicounts--requred_jobs{
+	height: 100%;
+	}
+	.modal_dicounts--requred_jobs > ul > li {
+		font-size: 20px;
+		color: white;
+		margin-bottom: 5px;
+		list-style-type: circle;
+	}
+	.modal_dicounts--requred_jobs > ul {
+		position: relative;
+		left: 14%;
+		width: 350px;
+		top: 35px;
+	}
+	.modal_dicounts_span{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		left: 13%;
+		top: 20px;
+
+	}
+	.modal_dicounts_select {
+		position: relative;
+		float: right;
+		right: 25%;
+   		top: 2.2em;
+   		width: 200px;
+   		text-align: center;
+}
+
+.modal_dicounts_span--qw{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		float: right;
+		top: 0;
+}
+
+.modal_dicounts--file{
+	position: relative;
+	float: right;
+	right: 15%;
+	bottom: 20px;
+	color: white;
+}
+
+.modal_dicounts--btn{
+	float: right;
+	top: 2.3em;
+	left: 5%;
+}
+.modal_callback{	
+	    position: absolute;
+		border:3px solid red;
+		width: 700px;
+		height: 300px;
+		background-color: #1565c0;
+		right: 10em;
+		top: 25%;
+		z-index: 3;
+		display: none;
+	}
+	.modal_callback_inner{
+		width: 100%;
+		height: 100%;
+	}
+	.modal_callback--requred_jobs > img{
+		position: relative;
+		width: 60px;
+		height: 60px;
+		left: 25%;
+		top: 15px;
+		
+	}
+	.modal_callbacks--requred_jobs{
+	height: 100%;
+	}
+	.modal_callback--requred_jobs > ul > li {
+		font-size: 20px;
+		color: white;
+		margin-bottom: 5px;
+		list-style-type: circle;
+	}
+	.modal_callback--requred_jobs > ul {
+		position: relative;
+		left: 14%;
+		width: 350px;
+		top: 35px;
+	}
+	.modal_callback_span{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		left: 13%;
+		top: 20px;
+
+	}
+	.modal_callback_select {
+		position: relative;
+		float: right;
+		right: 25%;
+   		top: 2.2em;
+   		width: 200px;
+   		text-align: center;
+}
+
+.modal_callback_span--qw{
+		position: relative;
+		font-size: 25px;
+		color: white;
+		float: right;
+		top: 0;
+}
+
+.modal_callback--file{
+	position: relative;
+	float: right;
+	right: 15%;
+	bottom: 20px;
+	color: white;
+}
+
+.modal_callback--btn{
+	float: right;
+	top: 2.3em;
+	left: 5%;
+}

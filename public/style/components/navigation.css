@@ -1,0 +1,30 @@
+.navigation{
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	top: 40%;
+}
+
+.arrow {
+	cursor: pointer;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 25%;
+	transition: .2s ease-out;
+}
+
+.arrow:hover {
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 50%;
+}
+
+.arrow--left {
+	left: 5%;
+	transform: rotate(180deg);
+}
+
+.arrow--right {
+	right: 5%;
+	transform: rotate(0deg);
+}

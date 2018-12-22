@@ -1,0 +1,137 @@
+
+.parallelogram-main {
+	position: absolute;
+    z-index: 2;
+	display: flex;
+    width: 80%;
+    height: 45px;
+    border: 1px solid #bdbdbd;
+    border-bottom: none;
+    -webkit-transform: skew(-18deg);
+    -moz-transform: skew(-18deg);
+    -o-transform: skew(-18deg);
+    transform: skew(-18deg);
+    bottom: 1em;
+    left: 12%;
+    justify-content: space-around;
+}
+
+.parallelogram {
+    /*position: relative;*/
+    display: flex;
+    width: 20%;
+    border-left: 1px solid #bdbdbd;
+    bottom: 0;
+    margin: 0 auto;
+    /*justify-content: center;*/
+}
+
+.parallelogram1 {
+    border-bottom: 4px solid #e53935;
+}
+.parallelogram2 {
+    border-bottom: 4px solid #1565c0;
+}
+.parallelogram3 {
+    border-bottom: 4px solid #4caf50;
+}
+.parallelogram4 {
+    border-bottom: 4px solid #e53935;
+}
+.parallelogram5 {
+    border-bottom: 4px solid #1565c0;
+}
+.parallelogram6 {
+    border-bottom: 4px solid #4caf50;
+}
+
+
+ .parallelogram:hover::before{
+    width: 16.6%;
+   }
+
+   .parallelogram::before{
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    content: '';
+    z-index:0;
+    position: absolute;
+    height: 100%; width: 0;
+    background: #aaaaaa; 
+
+   }
+
+
+.parall-span{
+	position: relative;
+/*	display: flex;*/
+    font-size: 24px;
+    font-family: CondPro-Light;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transform: none;
+    margin:10px auto;
+       -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -o-transform: skew(15deg);
+    transform: skew(15deg);
+}
+
+   .parallelogram1::before{
+    background: #e53935;
+   }
+
+     .parallelogram2::before{
+    background: #1565c0;
+
+   }
+     .parallelogram3::before{
+    background: #4caf50;
+
+   }
+   .parallelogram4::before{
+    background: #e53935;
+
+   }
+      .parallelogram5::before{
+    background: #1565c0;
+
+   }
+      .parallelogram6::before{
+    background: #4caf50;
+
+   }
+/*   @media screen and (max-width: 980px) {
+    .parallelogram-main{
+        height: 50px;
+        bottom: 3em;
+    }
+    .parallelogram{
+    height: 50px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+
+@media screen and (max-width: 480px) {
+      .parallelogram-main{
+        height: 40px;
+        bottom: 2.4em;
+    }
+    .parallelogram{
+    height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
+
+*/

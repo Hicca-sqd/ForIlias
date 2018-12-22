@@ -1,0 +1,44 @@
+
+@import url('./vendor/reset.css');
+@import url('./vendor/materialize.css');
+@import url('./vendor/materialize.min.css');
+@import url('./vendor/animate.css');
+
+
+
+@import url('./components/new.css');
+@import url('./components/second.css');
+@import url('./components/parall.css');
+@import url('./components/third.css');
+@import url('./components/four.css');
+@import url('./components/five.css');
+@import url('./components/contact.css');
+@import url('./components/navigation.css');
+
+@import url('./pages/team_info.css');
+@import url('./pages/service_info.css');
+
+
+		/*FONTFACES*/
+
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src: url('vendor/BebasNeue Bold.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'BebasNeue Regular';
+	src: url('vendor/BebasNeue Regular.otf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'CondPro-Light';
+	src: url('vendor/CondPro-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'BebasNeue Bold';
+	src: url('vendor/CondPro-Medium.ttf') format('truetype');
+}
